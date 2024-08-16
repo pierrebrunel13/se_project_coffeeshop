@@ -13,6 +13,11 @@
   border: none;
 }
 
+.form__label {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .form__input {
   display: block;
   width: 100%;
@@ -37,10 +42,15 @@
   background-color: #1878dc;
   color: #ffffff;
   transition: background-color 0.3s linear;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__button:hover {
-  background-color: #3f9;
+  background-color: #3f96f3;
   transition: background-color 0.2s ease-in-out;
 }
 
@@ -54,8 +64,4 @@
   display: flex;
   gap: 12px;
   justify-content: center;
-}
-
-.form__button:hover {
-  background-color: #3f96f3;
 }

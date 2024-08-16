@@ -1,50 +1,52 @@
 .recipes {
-    background-image: url(../images/background_recipes.svg);
-    background-color: #0a2750;
-    background-position: center;
-    color: #ffffff;
-    padding: 100px 80px 215px;
-  }
-  
-  .recipes__title {
-    max-width: 580px;
-    font-family: "Inter", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-  }
-  
-  .recipes__subtitle {
-    font-family: "Noto Serif", "Times New Roman", serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-  }
-  
-  .recipes__videos {
-    display: flex;
-    margin-top: 80px;
-    flex-direction: row;
-    gap: 40px;
-    justify-content: center;
-    font-family: "Inter", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-  
-  }
-  
-  .recipes__iframe {
-    width: 480px;
-    height: 273px;
-    border: none;
-  }
-  
-  
-  .recipes__videos.caption {
-    display: flex;
-    justify-content: space-between;
-  }
+  background-image: url(../images/background_recipes.svg);
+  background-color: #0a2750;
+  background-position: center;
+  color: #ffffff;
+  padding: 100px 80px 215px;
+  background-size: cover;
+}
+
+.recipes__title {
+  max-width: 580px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+}
+
+.recipes__subtitle {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.recipes__videos {
+  display: flex;
+  margin-top: 80px;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipes__iframe {
+  width: 480px;
+  height: 273px;
+  border: none;
+}
+
+.recipes__videos-caption {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}

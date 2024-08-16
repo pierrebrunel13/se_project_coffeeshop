@@ -1,62 +1,62 @@
 .about {
-    background-color: #0a2850;
-    padding: 100px 80px 173px;
-    position: relative;
-    display: flex;
-    overflow: hidden;
-    justify-content: space-between;
+  background-color: #0a2850;
+  padding: 100px 80px 173px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.about__title {
+  max-width: 251px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  z-index: 2;
+  position: relative;
+  color: #ffff;
+  margin: 0;
+}
+
+.about__paragraph {
+  gap: 20px;
+  max-width: 660px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffff;
+}
+
+.about__circle {
+  background-color: #1878dc;
+  position: absolute;
+  border-radius: 50%;
+  width: 426px;
+  height: 426px;
+  top: -152px;
+  left: -129px;
+  z-index: 1;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
   }
-  
-  .about__title {
-    max-width: 251px;
-    font-family: "Inter", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    z-index: 2;
-    position: relative;
-    color: #ffff;
-    margin: 0;
+
+  50% {
+    opacity: 0.6;
   }
-  
-  .about__description {
-    gap: 20px;
-    max-width: 660px;
-    font-family: "Noto Serif", "Times New Roman", serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #ffff;
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
   }
-  
-  .about__circle {
-    background-color: #1878dc;
-    position: absolute;
-    border-radius: 50%;
-    width: 426px;
-    height: 426px;
-    top: -152px;
-    left: -129px;
-    z-index: 1;
-  }
-  
-  .about__circle_animation_blurred {
-    animation: pulsate 1.3s ease-in-out infinite;
-  }
-  
-  @keyframes pulsate {
-    0% {
-      opacity: 0;
-    }
-  
-    50% {
-      opacity: 0.6;
-    }
-  
-    100% {
-      transform: scale(1.2);
-      opacity: 0;
-    }
-  }
+}

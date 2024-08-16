@@ -14,13 +14,13 @@
 }
 
 .footer__column-heading {
-  gap: 20px;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  margin: 0 0 20px;
 }
 
 .footer__list {
@@ -28,10 +28,13 @@
   margin: 0;
   gap: 16px;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__social-icon {
-  gap: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .footer__column-link {
@@ -42,6 +45,7 @@
   line-height: 20px;
   color: #ffffff;
   transition: opacity 0.3s ease-in-out;
+  text-decoration: none;
 }
 
 .footer__column-link:hover {
@@ -49,11 +53,12 @@
 }
 
 .footer__copyright {
-  margin: 0;
+  margin: 108px  0 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  
 }
