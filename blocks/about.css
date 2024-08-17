@@ -20,8 +20,13 @@
   margin: 0;
 }
 
-.about__paragraph {
+.about__content {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
+}
+
+.about__paragraph {
   max-width: 660px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
@@ -29,6 +34,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffff;
+  margin: 0;
 }
 
 .about__circle {
