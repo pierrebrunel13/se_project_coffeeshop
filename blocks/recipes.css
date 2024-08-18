@@ -14,7 +14,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-bottom: 24px;
+  margin: 0 0 24px;
 }
 
 .recipes__subtitle {
@@ -48,5 +48,5 @@
 .recipes__videos-caption {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 24px 0 0;
 }
